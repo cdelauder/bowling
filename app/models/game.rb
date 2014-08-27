@@ -1,5 +1,5 @@
 class Game
-  def init(args_hash)
+  def initialize(args_hash)
     @frames = args_hash[:frames]
   end
 end

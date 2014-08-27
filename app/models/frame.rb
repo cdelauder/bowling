@@ -1,5 +1,5 @@
 class Frame
-  def init(args_hash)
+  def initialize(args_hash)
     @balls = args_hash[:balls]
     @pins = args_hash[:pins]
     @strike = false
