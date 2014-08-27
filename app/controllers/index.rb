@@ -1,5 +1,9 @@
 get '/' do
-  # Look in app/views/index.erb
+  @frames = []
   erb :index
+end
+
+get '/bowl' do
+  redirect to('/')
 end
 

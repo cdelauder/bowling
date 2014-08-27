@@ -2,6 +2,10 @@ class Frame
   def init(args_hash)
     @balls = args_hash[:balls]
     @pins = args_hash[:pins]
+    @strike = false
+    @spare = false
+    @turkey = false
+    @score = ''
   end
 
   def update_frame(score)

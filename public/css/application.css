@@ -1,0 +1,13 @@
+.container {
+  margin-left: 5%;
+  border: 2px solid black;
+}
+
+.frame {
+  width: 9%;
+  float: right;
+}
+
+.button {
+  display: inline-block;
+}
