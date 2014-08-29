@@ -4,12 +4,15 @@ get '/' do
 end
 
 get '/bowl' do
+  game = session[:game]
+  game.bowl
+  session[:game] = game
   redirect to('/game')
 end
 
 get '/game' do
-  game = session[:game]
-  @frames = game.frames
+  @game = session[:game]
+  @frames = session[:game].frames
   erb :game
 end
 

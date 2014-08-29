@@ -4,11 +4,12 @@
 }
 
 .frame {
-  width: 9%;
-  float: right;
+  width: 5%;
+  float: left;
   border: 2px solid black;
 }
 
 .button {
-  display: inline-block;
+  display: block;
+  margin-top: 10%;
 }
