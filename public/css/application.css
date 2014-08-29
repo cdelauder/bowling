@@ -1,0 +1,15 @@
+.container {
+  margin-left: 5%;
+  width: 100%;
+}
+
+.frame {
+  width: 5%;
+  float: left;
+  border: 2px solid black;
+}
+
+.button {
+  display: block;
+  margin-top: 10%;
+}
